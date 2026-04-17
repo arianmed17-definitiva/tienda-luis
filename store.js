@@ -316,7 +316,19 @@ function confetti() {
 // ═══════════════════════════════════════════════════════════════
 //  EVENT LISTENERS
 // ═══════════════════════════════════════════════════════════════
+const btnPayAlt = document.getElementById("btn-pay-alt");
 
+if (btnPayAlt) {
+  btnPayAlt.addEventListener("click", () => {
+    if (getCartCount() === 0) {
+      alert("Tu carrito está vacío");
+      return;
+    }
+
+    // Redirigir al link de Stripe
+    window.location.href = "https://buy.stripe.com/14A28kbURdAr7vhcP6cjS00";
+  });
+}
 // Botones "Agregar al carrito"
 document.querySelectorAll(".btn-add").forEach((btn) => {
   btn.addEventListener("click", (e) => {
