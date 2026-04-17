@@ -1,0 +1,19 @@
+{
+  "name": "surco-vinilos",
+  "version": "1.0.0",
+  "description": "Tienda de vinilos con Stripe",
+  "type": "module",
+  "scripts": {
+    "build": "echo 'No build required for this static + functions project'",
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "serverless-http": "^3.2.0",
+    "stripe": "^14.25.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  }
+}

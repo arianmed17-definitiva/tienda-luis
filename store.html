@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src * 'unsafe-inline' 'unsafe-eval' data: blob:; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src *; style-src * 'unsafe-inline'; img-src * data: blob:; font-src * data:; frame-src *; frame-ancestors *;"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SURCO — Tienda de Vinilos</title>
+    <meta
+      name="description"
+      content="Vinilos originales. Música que se siente."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Mono:wght@300;400;500&family=Libre+Baskerville:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="store.css" />
+  </head>
+  <body>
+    <!-- ===== GRAIN OVERLAY ===== -->
+    <div class="grain"></div>
+
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+      <div class="header-inner">
+        <div class="header-label">EST. 1974</div>
+        <a href="#" class="logo">SURCO</a>
+        <div class="header-tag">VINILOS ORIGINALES</div>
+      </div>
+      <div class="header-rule"></div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <div class="hero-kicker">NUEVA COLECCIÓN — PRIMAVERA 2026</div>
+      <h1 class="hero-title">Música que<br /><em>se siente.</em></h1>
+      <p class="hero-sub">
+        Discos originales prensados en vinilo de 180g.<br />Entrega en todo
+        México en 3–5 días hábiles.
+      </p>
+      <a href="#catalogo" class="btn-hero">Ver catálogo ↓</a>
+
+      <!-- decorative spinning record -->
+      <div class="hero-record" aria-hidden="true">
+        <div class="record-outer">
+          <div class="record-label">
+            <span>SURCO</span>
+            <span>33⅓ RPM</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MARQUEE ===== -->
+    <div class="marquee-wrap" aria-hidden="true">
+      <div class="marquee-track">
+        <span
+          >JAZZ · SOUL · FUNK · ROCK CLÁSICO · ELECTRÓNICA · BLUES · AMBIENT ·
+          POST-PUNK · JAZZ · SOUL · FUNK · ROCK CLÁSICO · ELECTRÓNICA · BLUES ·
+          AMBIENT · POST-PUNK ·&nbsp;</span
+        >
+        <span
+          >JAZZ · SOUL · FUNK · ROCK CLÁSICO · ELECTRÓNICA · BLUES · AMBIENT ·
+          POST-PUNK · JAZZ · SOUL · FUNK · ROCK CLÁSICO · ELECTRÓNICA · BLUES ·
+          AMBIENT · POST-PUNK ·&nbsp;</span
+        >
+      </div>
+    </div>
+
+    <!-- ===== CATÁLOGO ===== -->
+    <section class="catalog" id="catalogo">
+      <div class="catalog-header">
+        <div class="catalog-num">001 — 006</div>
+        <h2 class="catalog-title">Catálogo</h2>
+        <div class="catalog-sort">
+          Ordenar por: <span class="sort-active">Destacados</span>
+        </div>
+      </div>
+
+      <div class="product-grid">
+        <!-- PRODUCTO 1 -->
+        <article
+          class="product-card"
+          data-id="1"
+          data-name="Kind of Blue"
+          data-artist="Miles Davis"
+          data-price="89900"
+          data-price-id="price_1TMUdvCdA8vpL5CPTiApq4q8"
+        >
+          <div class="product-cover">
+            <div
+              class="product-cover-img"
+              style="
+                background: linear-gradient(
+                  135deg,
+                  #1a3a5c 0%,
+                  #0d1f33 50%,
+                  #2a5a8c 100%
+                );
+              "
+            >
+              <div class="cover-art cover-art--blue">
+                <div class="ca-circle ca-c1"></div>
+                <div class="ca-circle ca-c2"></div>
+                <div class="ca-line"></div>
+                <span class="ca-text">MILES</span>
+              </div>
+            </div>
+            <div class="product-record-peek"></div>
+          </div>
+          <div class="product-info">
+            <div class="product-genre">JAZZ · 1959</div>
+            <h3 class="product-name">Kind of Blue</h3>
+            <div class="product-artist">Miles Davis</div>
+            <div class="product-footer">
+              <span class="product-price">$899</span>
+              <button class="btn-add" data-id="1">Agregar al carrito</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- PRODUCTO 2 -->
+        <article
+          class="product-card"
+          data-id="2"
+          data-name="Rumours"
+          data-artist="Fleetwood Mac"
+          data-price="94900"
+          data-price-id="price_1TMUdvCdA8vpL5CPTiApq4q8"
+        >
+          <div class="product-cover">
+            <div
+              class="product-cover-img"
+              style="
+                background: linear-gradient(
+                  160deg,
+                  #2d1b4e 0%,
+                  #1a0d30 50%,
+                  #4a2d7a 100%
+                );
+              "
+            >
+              <div class="cover-art cover-art--rumours">
+                <div class="ca-diamond"></div>
+                <div class="ca-diamond ca-d2"></div>
+                <span class="ca-text">FM</span>
+              </div>
+            </div>
+            <div class="product-record-peek"></div>
+          </div>
+          <div class="product-info">
+            <div class="product-genre">ROCK · 1977</div>
+            <h3 class="product-name">Rumours</h3>
+            <div class="product-artist">Fleetwood Mac</div>
+            <div class="product-footer">
+              <span class="product-price">$949</span>
+              <button class="btn-add" data-id="2">Agregar al carrito</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- PRODUCTO 3 -->
+        <article
+          class="product-card"
+          data-id="3"
+          data-name="What's Going On"
+          data-artist="Marvin Gaye"
+          data-price="84900"
+          data-price-id="price_1TMUdvCdA8vpL5CPTiApq4q8"
+        >
+          <div class="product-cover">
+            <div
+              class="product-cover-img"
+              style="
+                background: linear-gradient(
+                  145deg,
+                  #3d1a00 0%,
+                  #1a0a00 50%,
+                  #6b2d00 100%
+                );
+              "
+            >
+              <div class="cover-art cover-art--soul">
+                <div class="ca-wave"></div>
+                <div class="ca-wave ca-w2"></div>
+                <span class="ca-text">MG</span>
+              </div>
+            </div>
+            <div class="product-record-peek"></div>
+          </div>
+          <div class="product-info">
+            <div class="product-genre">SOUL · 1971</div>
+            <h3 class="product-name">What's Going On</h3>
+            <div class="product-artist">Marvin Gaye</div>
+            <div class="product-footer">
+              <span class="product-price">$849</span>
+              <button class="btn-add" data-id="3">Agregar al carrito</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- PRODUCTO 4 -->
+        <article
+          class="product-card"
+          data-id="4"
+          data-name="Nevermind"
+          data-artist="Nirvana"
+          data-price="99900"
+          data-price-id="price_1TMUdvCdA8vpL5CPTiApq4q8"
+        >
+          <div class="product-cover">
+            <div
+              class="product-cover-img"
+              style="
+                background: linear-gradient(
+                  135deg,
+                  #003366 0%,
+                  #001a33 50%,
+                  #004d99 100%
+                );
+              "
+            >
+              <div class="cover-art cover-art--grunge">
+                <div class="ca-x"></div>
+                <span class="ca-text">NIR</span>
+              </div>
+            </div>
+            <div class="product-record-peek"></div>
+          </div>
+          <div class="product-info">
+            <div class="product-genre">GRUNGE · 1991</div>
+            <h3 class="product-name">Nevermind</h3>
+            <div class="product-artist">Nirvana</div>
+            <div class="product-footer">
+              <span class="product-price">$999</span>
+              <button class="btn-add" data-id="4">Agregar al carrito</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- PRODUCTO 5 -->
+        <article
+          class="product-card"
+          data-id="5"
+          data-name="Discovery"
+          data-artist="Daft Punk"
+          data-price="109900"
+          data-price-id="price_1TMUdvCdA8vpL5CPTiApq4q8"
+        >
+          <div class="product-cover">
+            <div
+              class="product-cover-img"
+              style="
+                background: linear-gradient(
+                  135deg,
+                  #1a1a00 0%,
+                  #0d0d00 50%,
+                  #333300 100%
+                );
+              "
+            >
+              <div class="cover-art cover-art--electronic">
+                <div class="ca-grid"></div>
+                <span class="ca-text">DP</span>
+              </div>
+            </div>
+            <div class="product-record-peek"></div>
+          </div>
+          <div class="product-info">
+            <div class="product-genre">ELECTRÓNICA · 2001</div>
+            <h3 class="product-name">Discovery</h3>
+            <div class="product-artist">Daft Punk</div>
+            <div class="product-footer">
+              <span class="product-price">$1,099</span>
+              <button class="btn-add" data-id="5">Agregar al carrito</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- PRODUCTO 6 -->
+        <article
+          class="product-card"
+          data-id="6"
+          data-name="Purple Rain"
+          data-artist="Prince"
+          data-price="94900"
+          data-price-id="price_1TMUdvCdA8vpL5CPTiApq4q8"
+        >
+          <div class="product-cover">
+            <div
+              class="product-cover-img"
+              style="
+                background: linear-gradient(
+                  145deg,
+                  #1a0033 0%,
+                  #0d0019 50%,
+                  #330066 100%
+                );
+              "
+            >
+              <div class="cover-art cover-art--prince">
+                <div class="ca-symbol">♦</div>
+                <span class="ca-text">PRN</span>
+              </div>
+            </div>
+            <div class="product-record-peek"></div>
+          </div>
+          <div class="product-info">
+            <div class="product-genre">FUNK · 1984</div>
+            <h3 class="product-name">Purple Rain</h3>
+            <div class="product-artist">Prince</div>
+            <div class="product-footer">
+              <span class="product-price">$949</span>
+              <button class="btn-add" data-id="6">Agregar al carrito</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== CARRITO FLOTANTE ===== -->
+    <div class="cart-fab" id="cart-fab" aria-label="Ver carrito">
+      <span class="cart-icon">◉</span>
+      <span class="cart-label">CARRITO</span>
+      <span class="cart-count" id="cart-count">0</span>
+    </div>
+
+    <!-- ===== DRAWER CARRITO ===== -->
+    <div class="cart-overlay" id="cart-overlay"></div>
+    <aside class="cart-drawer" id="cart-drawer">
+      <div class="cart-drawer-header">
+        <h2>Tu carrito</h2>
+        <button class="cart-close" id="cart-close" aria-label="Cerrar">
+          ✕
+        </button>
+      </div>
+
+      <div class="cart-items" id="cart-items">
+        <div class="cart-empty" id="cart-empty">
+          <span>◎</span>
+          <p>Tu carrito está vacío</p>
+        </div>
+      </div>
+
+      <div class="cart-footer" id="cart-footer" style="display: none">
+        <div class="cart-total-row">
+          <span>Total</span>
+          <span class="cart-total" id="cart-total">$0</span>
+        </div>
+
+        <!-- Estado del pago -->
+        <div id="pay-status" class="pay-status" style="display: none"></div>
+
+        <!-- Stripe info -->
+        <div class="stripe-badge">
+          🔒 Pago seguro con <strong>Stripe</strong>
+        </div>
+
+        <!-- Nombre del titular -->
+        <div class="pay-field-group" id="name-group">
+          <label class="pay-label">Nombre del titular</label>
+          <input
+            type="text"
+            id="pay-name"
+            class="pay-input"
+            placeholder="Como aparece en la tarjeta"
+          />
+        </div>
+
+        <!-- Stripe CardElement -->
+        <div class="pay-field-group">
+          <label class="pay-label">Datos de la tarjeta</label>
+          <div id="card-element" class="card-element-box"></div>
+        </div>
+
+        <button class="btn-pay" id="btn-pay" disabled>Pagar</button>
+
+        <!-- Tarjetas de prueba -->
+        <details class="test-cards-detail">
+          <summary>🧪 Tarjetas de prueba</summary>
+          <table class="test-table">
+            <tr>
+              <td><code id="tc1">4242 4242 4242 4242</code></td>
+              <td>✅ Aprobada</td>
+            </tr>
+            <tr>
+              <td><code id="tc2">4000 0000 0000 0002</code></td>
+              <td>❌ Rechazada</td>
+            </tr>
+            <tr>
+              <td><code id="tc3">4000 0000 0000 9995</code></td>
+              <td>❌ Sin fondos</td>
+            </tr>
+          </table>
+          <p class="test-hint">Vencimiento: 12/29 · CVC: 123</p>
+        </details>
+      </div>
+    </aside>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-logo">SURCO</div>
+        <div class="footer-copy">
+          © 2026 · Todos los derechos reservados · México
+        </div>
+        <div class="footer-note">Vinilos 180g · Envío nacional</div>
+      </div>
+    </footer>
+
+    <script src="store.js"></script>
+  </body>
+</html>
